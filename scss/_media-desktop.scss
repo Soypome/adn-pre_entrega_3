@@ -1,0 +1,91 @@
+@media (min-width: 1024px) {
+  /* NAV BAR */
+  .nav-item {
+    padding: 0 20px;
+    text-align: center;
+
+    &:hover {
+      background-color: #04d9397e;
+      border-radius: 15px 0;
+    }
+  }
+
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* INICIO */
+  .texto {
+    background-size: 100%;
+  }
+
+  /* PRODUCCIÓN */
+  .actividades {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .container-agro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* CONTACTO */
+.casillaContacto {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 1200px) {
+  /* NAV BAR */
+  .nav-item {
+    padding: 0 20px;
+    text-align: center;
+
+    &:hover {
+      background-color: #04d9397e;
+      border-radius: 15px 0;
+    }
+  }
+
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-logo a img {
+    width: 20%;
+  }
+
+  /* INICIO */
+  .texto_interno {
+    width: 35rem;
+  }
+
+  /* PRODUCCI[ON */
+  .actividades__row {
+    width: fit-content;
+
+    img {
+      width: 45%;
+      border-radius: 15px 0;
+    }
+  }
+
+  /* NOVEDADES */
+  .grid__padre {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* CONTACTO */
+  form {
+    width: 30%;
+  }
+}

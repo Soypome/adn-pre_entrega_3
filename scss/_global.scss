@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+h2 {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.nav-item{
+  &:hover {
+    background-color: #04d9397e;
+    border-radius: 10px 0;
+  }
+}

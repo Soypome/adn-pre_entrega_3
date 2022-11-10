@@ -1,0 +1,31 @@
+@media (min-width: 613px) {
+  .nav_item {
+    font-size: 1rem;
+  }
+
+  .nav_link {
+    padding: 10px 15px;
+  }
+
+  .grid__padre {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .casillaContacto {
+    width: 40%;
+
+    form {
+      width: 35%;
+    }
+  }
+}
+
+@media (min-width: 912px) {
+  .texto_interno {
+    margin-top: 200px;
+  }
+
+  .grid__padre {
+    row-gap: 15px;
+  }
+}
