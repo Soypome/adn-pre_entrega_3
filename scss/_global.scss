@@ -1,7 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto';
+  font-family: "Roboto";
+}
+
+a {
+  text-decoration: none;
 }
 
 h1 {
@@ -14,7 +18,11 @@ h2 {
   padding: 10px 0;
 }
 
-.nav-item{
+h4 {
+  font-weight: bold;
+}
+
+.nav-item {
   &:hover {
     background-color: #04d9397e;
     border-radius: 10px 0;

@@ -18,17 +18,15 @@
 
 .texto_interno {
   margin-top: 80px;
-  background-color: rgba(245, 245, 245, 0.705);
+  background-color: $containerColor;
   width: 95%;
   height: fit-content;
   border-radius: 15px 0;
-  box-shadow: solid 15px rgb(15, 15, 15, 0.5);
+  box-shadow: solid 15px $boxShadow;
   display: flex;
   flex-direction: column;
-  
+
   p {
     font-weight: 500;
   }
 }
-
-

@@ -1,7 +1,7 @@
 .actividades__row {
   height: fit-content;
-  background-color: rgba(245, 245, 245, 0.836);
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: $containerColor;
+  box-shadow: $boxShadow;
   border-radius: 15px 0;
   margin: 20px;
   text-align: center;
@@ -18,6 +18,6 @@
   img {
     width: 90%;
     border-radius: 15px 0;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: $boxShadow;
   }
 }
