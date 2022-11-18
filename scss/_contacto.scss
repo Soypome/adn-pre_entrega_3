@@ -40,8 +40,9 @@
         border-width: thin;
         border-radius: 10px;
       }
-
+      
       .boton__enviar:hover {
+        transition: background-color 2s;
         color: #04d939;
       }
 
